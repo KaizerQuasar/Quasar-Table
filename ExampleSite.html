@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Webpage Titlr</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f8f8f8;
+            color: #333;
+            line-height: 1.6;
+        }
+        header {
+            text-align: center;
+            padding: 50px 0;
+            background-color: #3498db;
+            color: #fff;
+        }
+        main {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 20px;
+            background-color: #fff;
+            border-radius: 8px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            font-size: 2em;
+            color: #fff;
+            margin-bottom: 20px;
+        }
+        p {
+            font-size: 1.2em;
+            color: #555;
+            line-height: 1.5;
+        }
+        img {
+            display: block;
+            margin: 20px auto;
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+        button {
+            display: inline-block;
+            margin: 10px;
+            padding: 10px 20px;
+            font-size: 1.2em;
+            background-color: #3498db;
+            color: #fff;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+        }
+        button:hover {
+            background-color: #2073a1;
+        }
+        select {
+            display: block;
+            margin: 10px;
+            padding: 10px;
+            font-size: 1em;
+        }
+        textarea {
+            display: block;
+            margin: 10px;
+            padding: 10px;
+            width: 100%;
+            font-size: 1em;
+        }
+        .bg-section {
+            background-color: #ecf0f1;
+            padding: 20px;
+            border-radius: 8px;
+            margin-top: 20px;
+        }
+        .flex-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .flex-item {
+            flex-grow: 1;
+            margin: 10px;
+            padding: 20px;
+            background-color: #3498db;
+            color: #fff;
+            border-radius: 8px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Quasarr Site</h1>
+    </header>
+    <main>
+        <p>Replace this text with your own content.</p>
+        <img src="https://example.com/sample-image.jpg" alt="Sample Image">
+        <button onclick="showExampleAlert()">Example Button</button>
+        <select>
+            <option value="option1">Option 1</option>
+            <option value="option2">Option 2</option>
+            <option value="option3">Option 3</option>
+        </select>
+        <textarea placeholder="Type something..."></textarea>
+
+        <div class="bg-section">
+            <h2>Background Section</h2>
+            <div class="flex-container">
+                <div class="flex-item">
+                    <p>Adjust the styles as needed.</p>
+                </div>
+                <div class="flex-item">
+                    <button onclick="showFlexItemAlert()">Flex Item Button</button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <script>
+        function showExampleAlert() {
+            alert('Button clicked! You can customize this function.');
+        }
+
+        function showFlexItemAlert() {
+            alert('Flex item button clicked! You can customize this function.');
+        }
+    </script>
+</body>
+  </html>
